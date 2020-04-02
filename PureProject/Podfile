@@ -1,15 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
 
-workspace 'PureProject.xcworkspace'
-
-inhibit_all_warnings!
-
 target 'PureProject' do
-  project 'PureProject'
-  #use_frameworks!
-  pod 'QPToolSDK', :path => '/Users/qiupeng/QP/iOS/组件化/KoalaModule/QPToolSDK/QPToolSDK/QPToolSDK.podspec'
-  pod 'QPBusinessA', :path => '/Users/qiupeng/QP/iOS/组件化/KoalaModule/PureProject/QPBusinessA/QPBusinessA.podspec'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PureProject
 
 end
-
