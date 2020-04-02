@@ -1,0 +1,6 @@
+framework module Pods_PureProject {
+  umbrella header "Pods-PureProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

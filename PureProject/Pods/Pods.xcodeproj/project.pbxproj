@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E70C47CF4B7F02C2C2627078582A30 /* QPBALoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34BDA56277592D2417CD37D5A5DD81 /* QPBALoginManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		13A70DA6E29537FFB49C2DDB012ED30A /* QPBusinessA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E618FF399095431C4E8B8CC2F74E58F4 /* QPBusinessA-dummy.m */; };
+		77FDA58A0187FCC1E113B4513A0AB083 /* QPToolSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BCEEC6C2ECCBEA331F10B2B3D38BF3 /* QPToolSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		960E8A893EC0CA5A7A7558E94AB73F03 /* QPToolSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = C90666681E082F5EB4651E5CF001766A /* QPToolSDK.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0DE4F3FE5AD00EE35A8BDBB0C57B9EA /* Pods-PureProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FB1C6BA83CD4E899A98959A437F8E5 /* Pods-PureProject-dummy.m */; };
+		D39A007607D66ADAE9F76EC3559ACCBC /* QPBALoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A59117687EADC366DFBE4A699324863A /* QPBALoginManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E378DEDCC63E84E002B2B0ACAE87CB5A /* QPToolSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F04434E850377275C786622DB8BB31 /* QPToolSDK-dummy.m */; };
+		E9F875AA5B85191CE77B2E5AA2AD1F1E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E01606F7E1745B75D0A9AF346F446D /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1135E84BD098D86D566226736D246E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DA3CB71EA37D12C8B7EBC5F7CBCE9F;
+			remoteInfo = QPToolSDK;
+		};
+		6B535DD08AA7360F0741FF6DE548A45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556CBA62BA5D0F1F47B51E7F63844E0F;
+			remoteInfo = QPBusinessA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E01606F7E1745B75D0A9AF346F446D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QPBusinessA/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		113E3934A71BB6E8EDA4F7AAD616F77D /* QPToolSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QPToolSDK.xcconfig; sourceTree = "<group>"; };
+		12B52E33D94CD40D8D1809DCEFF87D8E /* Pods-PureProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PureProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		20BCEEC6C2ECCBEA331F10B2B3D38BF3 /* QPToolSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPToolSDK.h; path = QPToolSDK/Classes/QPToolSDK.h; sourceTree = "<group>"; };
+		26E7EC388E9ECF68DBDBE26DD188A9D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		31838270AAD55CEFCB6FEACB5A795A85 /* Pods-PureProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3273A04A84B8C2EE380989B15C7D8DBB /* libQPToolSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQPToolSDK.a; path = libQPToolSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B752E961D8227AF2E73A86F7321AA9 /* QPToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QPToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FC5F52AED03D46D2BC65FDACF3843D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6EC2DFFBD43FDB5C4AA7989402EEE29F /* QPBusinessA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QPBusinessA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F34BDA56277592D2417CD37D5A5DD81 /* QPBALoginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QPBALoginManager.m; path = QPBusinessA/Classes/QPBALoginManager.m; sourceTree = "<group>"; };
+		8856FDB9FD82BD473EBA275F1C7FA731 /* Pods-PureProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureProject.release.xcconfig"; sourceTree = "<group>"; };
+		89E25B65BFFC4851A36D696E2B8FDCB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89FB1C6BA83CD4E899A98959A437F8E5 /* Pods-PureProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PureProject-dummy.m"; sourceTree = "<group>"; };
+		8FC1948E1067765FF2C8C3E1ED0C3E8E /* Pods-PureProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PureProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97D49892FC6FAF8ABC160B31B03529A0 /* libPods-PureProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PureProject.a"; path = "libPods-PureProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59117687EADC366DFBE4A699324863A /* QPBALoginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QPBALoginManager.h; path = QPBusinessA/Classes/QPBALoginManager.h; sourceTree = "<group>"; };
+		A9E607396B01B983EEAD0DF763D2EC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AEC339AA2BA9144B180D534AD5DE7EA7 /* QPToolSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QPToolSDK-prefix.pch"; sourceTree = "<group>"; };
+		B20E5F7945D771AAB584244DDE811231 /* QPBusinessA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QPBusinessA.xcconfig; sourceTree = "<group>"; };
+		C1F04434E850377275C786622DB8BB31 /* QPToolSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QPToolSDK-dummy.m"; sourceTree = "<group>"; };
+		C90666681E082F5EB4651E5CF001766A /* QPToolSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QPToolSDK.m; path = QPToolSDK/Classes/QPToolSDK.m; sourceTree = "<group>"; };
+		E618FF399095431C4E8B8CC2F74E58F4 /* QPBusinessA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QPBusinessA-dummy.m"; sourceTree = "<group>"; };
+		EDBA4E994067BA14E2E24B4851C7CEDB /* libQPBusinessA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQPBusinessA.a; path = libQPBusinessA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AF8A2C70C53851860CF78D6345DB65 /* QPBusinessA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QPBusinessA-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3883B2F5A7F350D49AA78F89574D7814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63FFB888F73330D81FB49CE706E9CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E172BF33F2C36FDCE15A9521CB2F6654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3544E05590C00C63447624FF1D758AA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9E607396B01B983EEAD0DF763D2EC70 /* LICENSE */,
+				46B752E961D8227AF2E73A86F7321AA9 /* QPToolSDK.podspec */,
+				26E7EC388E9ECF68DBDBE26DD188A9D4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4EE62B1A106F30729C6962DD8BCDEDF4 /* QPToolSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20BCEEC6C2ECCBEA331F10B2B3D38BF3 /* QPToolSDK.h */,
+				C90666681E082F5EB4651E5CF001766A /* QPToolSDK.m */,
+				3544E05590C00C63447624FF1D758AA0 /* Pod */,
+				5910B6254E49F39C0451A9E9BFEC405A /* Support Files */,
+			);
+			name = QPToolSDK;
+			path = "/Users/qiupeng/QP/iOS/组件化/QPToolSDK/QPToolSDK";
+			sourceTree = "<absolute>";
+		};
+		5910B6254E49F39C0451A9E9BFEC405A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				113E3934A71BB6E8EDA4F7AAD616F77D /* QPToolSDK.xcconfig */,
+				C1F04434E850377275C786622DB8BB31 /* QPToolSDK-dummy.m */,
+				AEC339AA2BA9144B180D534AD5DE7EA7 /* QPToolSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../PureProject/Pods/Target Support Files/QPToolSDK";
+			sourceTree = "<group>";
+		};
+		6D3E45062791BB502069BFBB262E1878 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				89E25B65BFFC4851A36D696E2B8FDCB2 /* LICENSE */,
+				6EC2DFFBD43FDB5C4AA7989402EEE29F /* QPBusinessA.podspec */,
+				5FC5F52AED03D46D2BC65FDACF3843D3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84C381EB170425A114C6E6F0B80E8D9C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC98760B775644D350AF7CFF049AE102 /* QPBusinessA */,
+				4EE62B1A106F30729C6962DD8BCDEDF4 /* QPToolSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB3F10DC6378B6035BD757937504677E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52A14950C4FE730347635047F6B0BB7 /* Pods-PureProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE1E3F266B70A91BE860E3AD40BFB57E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20E5F7945D771AAB584244DDE811231 /* QPBusinessA.xcconfig */,
+				E618FF399095431C4E8B8CC2F74E58F4 /* QPBusinessA-dummy.m */,
+				F4AF8A2C70C53851860CF78D6345DB65 /* QPBusinessA-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/QPBusinessA";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				84C381EB170425A114C6E6F0B80E8D9C /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E1DCD5C14A881C9417BE2676357030CC /* Products */,
+				AB3F10DC6378B6035BD757937504677E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DCD5C14A881C9417BE2676357030CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D49892FC6FAF8ABC160B31B03529A0 /* libPods-PureProject.a */,
+				EDBA4E994067BA14E2E24B4851C7CEDB /* libQPBusinessA.a */,
+				3273A04A84B8C2EE380989B15C7D8DBB /* libQPToolSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC98760B775644D350AF7CFF049AE102 /* QPBusinessA */ = {
+			isa = PBXGroup;
+			children = (
+				A59117687EADC366DFBE4A699324863A /* QPBALoginManager.h */,
+				7F34BDA56277592D2417CD37D5A5DD81 /* QPBALoginManager.m */,
+				00E01606F7E1745B75D0A9AF346F446D /* ReplaceMe.m */,
+				6D3E45062791BB502069BFBB262E1878 /* Pod */,
+				CE1E3F266B70A91BE860E3AD40BFB57E /* Support Files */,
+			);
+			name = QPBusinessA;
+			path = "/Users/qiupeng/QP/iOS/组件化/PureProject/QPBusinessA";
+			sourceTree = "<absolute>";
+		};
+		F52A14950C4FE730347635047F6B0BB7 /* Pods-PureProject */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1948E1067765FF2C8C3E1ED0C3E8E /* Pods-PureProject-acknowledgements.markdown */,
+				12B52E33D94CD40D8D1809DCEFF87D8E /* Pods-PureProject-acknowledgements.plist */,
+				89FB1C6BA83CD4E899A98959A437F8E5 /* Pods-PureProject-dummy.m */,
+				31838270AAD55CEFCB6FEACB5A795A85 /* Pods-PureProject.debug.xcconfig */,
+				8856FDB9FD82BD473EBA275F1C7FA731 /* Pods-PureProject.release.xcconfig */,
+			);
+			name = "Pods-PureProject";
+			path = "Target Support Files/Pods-PureProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		596B371F074C809C55D25FF0648C6192 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8486DB3A678E8D924AB88E224AE4AA6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FDA58A0187FCC1E113B4513A0AB083 /* QPToolSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CBAE28B00CD3708CBA292FCFD21763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A007607D66ADAE9F76EC3559ACCBC /* QPBALoginManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04DA3CB71EA37D12C8B7EBC5F7CBCE9F /* QPToolSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00AD8CFF6558B0E3FF2050C307D6F69 /* Build configuration list for PBXNativeTarget "QPToolSDK" */;
+			buildPhases = (
+				8486DB3A678E8D924AB88E224AE4AA6F /* Headers */,
+				DDF3B5FE1CAEF9A17A1455402134A2E2 /* Sources */,
+				A63FFB888F73330D81FB49CE706E9CC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPToolSDK;
+			productName = QPToolSDK;
+			productReference = 3273A04A84B8C2EE380989B15C7D8DBB /* libQPToolSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		556CBA62BA5D0F1F47B51E7F63844E0F /* QPBusinessA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4154B20DF62DE395B5F5F957A2560EF9 /* Build configuration list for PBXNativeTarget "QPBusinessA" */;
+			buildPhases = (
+				90CBAE28B00CD3708CBA292FCFD21763 /* Headers */,
+				0EC5FB8E76149FC196427F2D05F7BBF2 /* Sources */,
+				E172BF33F2C36FDCE15A9521CB2F6654 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPBusinessA;
+			productName = QPBusinessA;
+			productReference = EDBA4E994067BA14E2E24B4851C7CEDB /* libQPBusinessA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E0BE33F525E43D544D001C5BFFEE6820 /* Pods-PureProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00D0E6EBCEAE3821721269913CD7A60 /* Build configuration list for PBXNativeTarget "Pods-PureProject" */;
+			buildPhases = (
+				596B371F074C809C55D25FF0648C6192 /* Headers */,
+				397A538AE1C7FBE7240165F183AB93D0 /* Sources */,
+				3883B2F5A7F350D49AA78F89574D7814 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D07DD13280995A6E34283E0FF070D9 /* PBXTargetDependency */,
+				AEE85E69097055593DD2253E0D83481B /* PBXTargetDependency */,
+			);
+			name = "Pods-PureProject";
+			productName = "Pods-PureProject";
+			productReference = 97D49892FC6FAF8ABC160B31B03529A0 /* libPods-PureProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E1DCD5C14A881C9417BE2676357030CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BE33F525E43D544D001C5BFFEE6820 /* Pods-PureProject */,
+				556CBA62BA5D0F1F47B51E7F63844E0F /* QPBusinessA */,
+				04DA3CB71EA37D12C8B7EBC5F7CBCE9F /* QPToolSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC5FB8E76149FC196427F2D05F7BBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E70C47CF4B7F02C2C2627078582A30 /* QPBALoginManager.m in Sources */,
+				13A70DA6E29537FFB49C2DDB012ED30A /* QPBusinessA-dummy.m in Sources */,
+				E9F875AA5B85191CE77B2E5AA2AD1F1E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397A538AE1C7FBE7240165F183AB93D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DE4F3FE5AD00EE35A8BDBB0C57B9EA /* Pods-PureProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3B5FE1CAEF9A17A1455402134A2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E378DEDCC63E84E002B2B0ACAE87CB5A /* QPToolSDK-dummy.m in Sources */,
+				960E8A893EC0CA5A7A7558E94AB73F03 /* QPToolSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D07DD13280995A6E34283E0FF070D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QPBusinessA;
+			target = 556CBA62BA5D0F1F47B51E7F63844E0F /* QPBusinessA */;
+			targetProxy = 6B535DD08AA7360F0741FF6DE548A45D /* PBXContainerItemProxy */;
+		};
+		AEE85E69097055593DD2253E0D83481B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QPToolSDK;
+			target = 04DA3CB71EA37D12C8B7EBC5F7CBCE9F /* QPToolSDK */;
+			targetProxy = 1135E84BD098D86D566226736D246E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11608A3E19650ACC0DE3353F37BC06FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113E3934A71BB6E8EDA4F7AAD616F77D /* QPToolSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QPToolSDK/QPToolSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QPToolSDK;
+				PRODUCT_NAME = QPToolSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		206C1E2AE3A0DAC993EB64D09252DCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20E5F7945D771AAB584244DDE811231 /* QPBusinessA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QPBusinessA/QPBusinessA-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QPBusinessA;
+				PRODUCT_NAME = QPBusinessA;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4BF4068B06D4F42DA210FF60A3A91D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8856FDB9FD82BD473EBA275F1C7FA731 /* Pods-PureProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4DAE89D9C589578DB30C5D61481E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20E5F7945D771AAB584244DDE811231 /* QPBusinessA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QPBusinessA/QPBusinessA-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QPBusinessA;
+				PRODUCT_NAME = QPBusinessA;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49611C63AEDE7BAC383570801269214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113E3934A71BB6E8EDA4F7AAD616F77D /* QPToolSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QPToolSDK/QPToolSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QPToolSDK;
+				PRODUCT_NAME = QPToolSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEF22571572C6A104272A67D8E5F8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31838270AAD55CEFCB6FEACB5A795A85 /* Pods-PureProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4154B20DF62DE395B5F5F957A2560EF9 /* Build configuration list for PBXNativeTarget "QPBusinessA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206C1E2AE3A0DAC993EB64D09252DCFD /* Debug */,
+				9F4DAE89D9C589578DB30C5D61481E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00D0E6EBCEAE3821721269913CD7A60 /* Build configuration list for PBXNativeTarget "Pods-PureProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEF22571572C6A104272A67D8E5F8F7 /* Debug */,
+				4BF4068B06D4F42DA210FF60A3A91D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00AD8CFF6558B0E3FF2050C307D6F69 /* Build configuration list for PBXNativeTarget "QPToolSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11608A3E19650ACC0DE3353F37BC06FD /* Debug */,
+				B49611C63AEDE7BAC383570801269214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,21 @@
+PODS:
+  - QPBusinessA (0.1.0)
+  - QPToolSDK (0.1.0)
+
+DEPENDENCIES:
+  - "QPBusinessA (from `/Users/qiupeng/QP/iOS/组件化/PureProject/QPBusinessA/QPBusinessA.podspec`)"
+  - "QPToolSDK (from `/Users/qiupeng/QP/iOS/组件化/QPToolSDK/QPToolSDK/QPToolSDK.podspec`)"
+
+EXTERNAL SOURCES:
+  QPBusinessA:
+    :path: "/Users/qiupeng/QP/iOS/组件化/PureProject/QPBusinessA/QPBusinessA.podspec"
+  QPToolSDK:
+    :path: "/Users/qiupeng/QP/iOS/组件化/QPToolSDK/QPToolSDK/QPToolSDK.podspec"
+
+SPEC CHECKSUMS:
+  QPBusinessA: a190dfa7ccbd71757b4b8ca067265d59b53b8384
+  QPToolSDK: 26ce42e1a318e54fcd4df9a7923d5f59ef2f2e8f
+
+PODFILE CHECKSUM: 02942a5ac0466f0c8a0036bc1230459686ad1877
+
+COCOAPODS: 1.8.4
