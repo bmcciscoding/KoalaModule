@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: b5a083a718203f491a80d55f17f9bcef2a0921f1
+PODS:
+  - QPToolSDk (0.1.0)
+
+DEPENDENCIES:
+  - "QPToolSDk (from `/Users/qiupeng/QP/iOS/组件化/PrivatePod/QPToolSDk/QPToolSDk.podspec`)"
+
+EXTERNAL SOURCES:
+  QPToolSDk:
+    :path: "/Users/qiupeng/QP/iOS/组件化/PrivatePod/QPToolSDk/QPToolSDk.podspec"
+
+SPEC CHECKSUMS:
+  QPToolSDk: 5a6f39cf1006d74648d3a1777983e151c1a865cc
+
+PODFILE CHECKSUM: 72636a0d88af867f76d08b7ff97e86d915444b2c
 
 COCOAPODS: 1.8.4

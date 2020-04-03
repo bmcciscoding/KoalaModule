@@ -14,7 +14,8 @@
 		1DAC8BE82435960400CD32AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC8BE72435960400CD32AE /* Assets.xcassets */; };
 		1DAC8BEB2435960400CD32AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC8BE92435960400CD32AE /* LaunchScreen.storyboard */; };
 		1DAC8BEE2435960400CD32AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC8BED2435960400CD32AE /* main.m */; };
-		224BB14D13CADCCAB19FEF00 /* Pods_PureProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636F04C25B78827650C649D /* Pods_PureProject.framework */; };
+		1DAC8BFB24371A3A00CD32AE /* QPRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC8BFA24371A3A00CD32AE /* QPRouteViewController.m */; };
+		E9B0F627C34D9491BD393265 /* libPods-PureProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 529ADC1FD54F1A67EE056F30 /* libPods-PureProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,10 @@
 		1DAC8BEA2435960400CD32AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DAC8BEC2435960400CD32AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DAC8BED2435960400CD32AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DAC8BF924371A3A00CD32AE /* QPRouteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPRouteViewController.h; sourceTree = "<group>"; };
+		1DAC8BFA24371A3A00CD32AE /* QPRouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPRouteViewController.m; sourceTree = "<group>"; };
 		4476FFF9B9FA238D6EDCCFA5 /* Pods-PureProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureProject.release.xcconfig"; path = "Target Support Files/Pods-PureProject/Pods-PureProject.release.xcconfig"; sourceTree = "<group>"; };
-		6636F04C25B78827650C649D /* Pods_PureProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529ADC1FD54F1A67EE056F30 /* libPods-PureProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PureProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BB14D13CADCCAB19FEF00 /* Pods_PureProject.framework in Frameworks */,
+				E9B0F627C34D9491BD393265 /* libPods-PureProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,8 @@
 				1DAC8BDF2435960200CD32AE /* SceneDelegate.m */,
 				1DAC8BE12435960200CD32AE /* ViewController.h */,
 				1DAC8BE22435960200CD32AE /* ViewController.m */,
+				1DAC8BF924371A3A00CD32AE /* QPRouteViewController.h */,
+				1DAC8BFA24371A3A00CD32AE /* QPRouteViewController.m */,
 				1DAC8BE42435960200CD32AE /* Main.storyboard */,
 				1DAC8BE72435960400CD32AE /* Assets.xcassets */,
 				1DAC8BE92435960400CD32AE /* LaunchScreen.storyboard */,
@@ -89,14 +94,13 @@
 				0D5DA59A79ABE9CC50994E6E /* Pods-PureProject.debug.xcconfig */,
 				4476FFF9B9FA238D6EDCCFA5 /* Pods-PureProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		7B12B1CCC156A1061C6DBE03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6636F04C25B78827650C649D /* Pods_PureProject.framework */,
+				529ADC1FD54F1A67EE056F30 /* libPods-PureProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,6 +204,7 @@
 				1DAC8BE32435960200CD32AE /* ViewController.m in Sources */,
 				1DAC8BDD2435960200CD32AE /* AppDelegate.m in Sources */,
 				1DAC8BEE2435960400CD32AE /* main.m in Sources */,
+				1DAC8BFB24371A3A00CD32AE /* QPRouteViewController.m in Sources */,
 				1DAC8BE02435960200CD32AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
